@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Table</title>
+
+  <style>
+    table {
+        border-collapse: collapse; /* Collapse borders */
+        width: 50%;
+        margin: auto;
+    }
+    th, td {
+        border: 1px solid white; /* Add borders for better visibility */
+        padding: 0; /* Remove padding */
+        line-height: 1; /* Adjust line-height */
+        background-color: #9fe2e3; /* Match the background color */
+    }
+    th {
+        text-align: center; /* Center align text in header cells */ /* Set a fixed height for header cells */
+    }
+    th b {
+        display: block;
+        padding: 0;
+        margin: 0;
+        line-height: 1; /* Ensure text touches the top and bottom */
+    }
+    td {
+        text-align: left; /* Align text to the left in data cells */
+    }
+    td p {
+        margin: 0; /* Remove margins from paragraphs inside cells */
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <table>
+      <tr>
+        <th><b>Firstname</b></th>
+        <th><b>Lastname</b></th>
+        <th><b>Age</b></th>
+      </tr>
+      <tr>
+        <td><p>Jill</p></td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td><p>Eve</p></td>
+        <td><p>Jackson</p></td>
+        <td><p>94</p></td>
+      </tr>
+      <tr>
+        <td><p>John</p></td>
+        <td><p>Doe</p></td>
+        <td><p>80</p></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

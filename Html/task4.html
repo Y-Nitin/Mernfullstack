@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Form</title>
+</head>
+<body>
+<div  align="center">
+<form action="/submit_registration" method="post">
+    <table border="0" cellpadding="5" cellspacing="0">
+        <tr>
+            <td  >Full Name:</td>
+            <td><input type="text" name="full_name" required></td>
+        </tr>
+        <tr>
+            <td  >User Name:</td>
+            <td><input type="text" name="user_name" required></td>
+        </tr>
+        <tr>
+            <td  >Password:</td>
+            <td><input type="password" name="password" required></td>
+        </tr>
+        <tr>
+            <td  >Re Password:</td>
+            <td><input type="password" name="re_password" required></td>
+        </tr>
+        <tr>
+            <td  >Address:</td>
+            <td><textarea name="address" rows="4" required></textarea></td>
+        </tr>
+        <tr>
+            <td  >Age:</td>
+            <td><input type="text" name="age" required></td>
+        </tr>
+        <tr>
+            <td  >Gender:</td>
+            <td>
+                <select>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+</form>
+<br> 
+<input type="submit" value="Save">
+</div>
+</body>
+</html>
