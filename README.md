@@ -1,3 +1,0 @@
-# Mernfullstack
-
-### Assignment Submission
